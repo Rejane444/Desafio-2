@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+}
+header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+header nav {
+  width: 50%;
+  height: 15vh;
+}
+header ul {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+header li {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+header a {
+  text-decoration: none;
+  color: #5B5B5B;
+}
+header a:hover {
+  color: #000;
+  font-size: 1.5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+.container_background_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 70vh;
+  background-color: aqua;
+  background-image: url("./imagens/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+}
+.container_background_image div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+  width: 60%;
+  margin-left: 100px;
+}
+.container_background_image h1 {
+  width: 50%;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 6rem;
+  color: #FFFFFF;
+}
+.container_background_image h2 {
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.container_background_image button {
+  border: solid blue;
+  background-color: blue;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  width: 10%;
+  height: 5vh;
+}
+
+.texto_gestao_portuaria {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+}
+.texto_gestao_portuaria h1 {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #0017E9;
+}
+.texto_gestao_portuaria h2 {
+  font-family: "roboto";
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: #000000;
+}
+.texto_gestao_portuaria p {
+  border: solid red;
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
