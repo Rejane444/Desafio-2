@@ -89,7 +89,7 @@ header {
         justify-content: space-evenly;
         height: 30vh;
         width: 60%;
-        
+
         margin-left: 100px;
 
     }
@@ -127,15 +127,16 @@ header {
 
     }
 
-    
+
 
 }
 
 .texto_gestao_portuaria {
     display: flex;
     align-items: center;
+    text-align: center;
     margin-left: 50%;
-    
+    justify-content: space-around;
 
 
 
@@ -155,12 +156,9 @@ header {
     }
 
     p {
-        border: solid red;
         font-family: "roboto";
         font-weight: 400;
         font-size: 1.5rem;
-        
-
 
     }
 

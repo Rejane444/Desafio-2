@@ -90,7 +90,9 @@ header a:hover {
 .texto_gestao_portuaria {
   display: flex;
   align-items: center;
+  text-align: center;
   margin-left: 50%;
+  justify-content: space-around;
 }
 .texto_gestao_portuaria h1 {
   font-family: "Oswald";
@@ -105,7 +107,6 @@ header a:hover {
   color: #000000;
 }
 .texto_gestao_portuaria p {
-  border: solid red;
   font-family: "roboto";
   font-weight: 400;
   font-size: 1.5rem;
